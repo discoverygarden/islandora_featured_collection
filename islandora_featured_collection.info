@@ -1,0 +1,10 @@
+name = "Islandora Featured Collection"
+description = Generates a "Featured" collection and provides a View for it.
+dependencies[] = islandora
+dependencies[] = islandora_basic_collection
+dependencies[] = islandora_solr
+dependencies[] = islandora_solr_views
+dependencies[] = views
+package = Islandora
+core = 7.x
+version = 7.x-dev
