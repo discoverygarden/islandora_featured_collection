@@ -64,7 +64,7 @@ function islandora_featured_collection_views_default_views() {
   $view->human_name = 'Featured Collection Blocks';
   $view->core = 7;
   $view->api_version = '3.0';
-  $view->disabled = FALSE;
+  $view->disabled = TRUE;
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
